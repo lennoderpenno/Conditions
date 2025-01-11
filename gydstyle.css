@@ -1,0 +1,208 @@
+@font-face {
+    font-family: Fenwick;
+    src: url('fonts/fenwick.ttf') format('ttf');
+    src: url('fonts/fenwick.woff') format('woff');
+    src: url('fonts/fenwick.woff2') format('woff2');
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 110px;
+    background-image: url("headerbg.png");
+    -webkit-box-shadow: 0px 6px 16px 3px #000000; 
+    box-shadow: 0px 6px 16px 3px #000000;
+}
+
+header img {
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+header .abt {
+    position: absolute;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    color: #232F55;
+    font-family: Fenwick;
+    font-size: 24px;
+    display: flex;
+    margin-top: 35px;
+    text-decoration: none;
+}
+
+header .abt:hover {
+    color: #8690b4;
+
+}
+.hover-block1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hover-block1:hover{
+    opacity: 1;
+}
+.linkhdr1 {
+      color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      text-align: center;
+      font-family: Fenwick;
+      text-decoration: none;
+}
+.hover-block2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 270px;
+}
+.hover-block2:hover{
+    opacity: 1;
+}
+.linkhdr2 {
+      color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      text-align: center;
+      font-family: Fenwick;
+      text-decoration: none;
+}
+.hover-block3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 540px;
+}
+.hover-block3:hover{
+    opacity: 1;
+}
+.linkhdr3 {
+      color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      text-align: center;
+      font-family: Fenwick;
+      text-decoration: none;
+}
+.hover-block4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 810px;
+}
+.hover-block4:hover{
+    opacity: 1;
+}
+.linkhdr4 {
+      color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      text-align: center;
+      font-family: Fenwick;
+      text-decoration: none;
+}
+.hover-block5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1080px;
+}
+.hover-block5:hover{
+    opacity: 1;
+}
+.linkhdr5 {
+      color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      text-align: center;
+      font-family: Fenwick;
+      text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-image: url("bodybg.png");
+
+}
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+iframe {
+    margin-top: 40px;
+    border: none;
+}
+.lyrics {
+    font-family: Fenwick;
+    font-size: 20px;
+    color: #f7e500;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+    text-shadow: 5px 3px 5px rgba(255,255,255,.2);
+    
+}
